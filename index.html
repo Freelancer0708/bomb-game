@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta name="robots" content="noindex">
+    <meta charset="utf-8">
+    <script type="text/javascript">
+        if (screen.width < 767) {
+            document.write(
+                '<meta name="viewport" content="width=device-width, initial-scale=1">'
+            );
+        } else {
+            document.write('<meta name="viewport" content="width=1200">');
+        }
+    </script>
+
+    <!-- Keyword Description -->
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+
+    <!-- title -->
+    <title>【非公式】爆弾分けミニゲーム</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+
+    <!-- font -->
+
+    <!-- icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/destyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/sub.css">
+    <link rel="stylesheet" href="./css/mediaquery.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/swiper@4.5.1/dist/css/swiper.min.css" />
+
+
+    <link href="./assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="./assets/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="./assets/fontawesome/css/solid.css" rel="stylesheet">
+    <!-- script -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+
+    <script>
+        if (screen.width < 767) {
+            $(function () {
+                $('a[href^="#"]').click(function () {
+                    var speed = 500; //移動スピードの設定
+                    var href = $(this).attr("href");
+                    var target = $(href == "#" || href == "" ? 'html' : href);
+                    var position = target.offset().top;
+                    $("html, body").animate({ scrollTop: position }, speed, "swing");
+                    return false;
+                });
+            });
+        }
+    </script>
+
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</head>
+
+<body>
+    <header>
+        <section class=""></section>
+    </header>
+    <main id="wrap" class="py60">
+        <section class="bg">
+            <div class="bomb-red drag-and-drop">
+                <img src="./img/bomb-red.gif" alt="" width="100%" height="auto"> 
+            </div>
+            <div class="bomb-black drag-and-drop">
+                <img src="./img/bomb-black.gif" alt="" width="100%" height="auto"> 
+            </div>
+
+            <div class="goal-red">
+
+            </div>
+            <div class="goal-black">
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-inner"></section>
+    </footer>
+
+    <a id="pagetop" class="wrap_btn" href="#wrap">
+        <div class="wrap_btn_img">
+            
+        </div>
+    </a>
+
+    <!-- hamburger-menu -->
+    <section class="hamburger sp">
+        <div class="hamburger-contents">
+            <div class="sp-logo">
+                <a href="./"><img src="./img/common/logo.jpg" alt=""></a>
+            </div>
+            <a href="./contact/" class="contact-btn d-flex flex-column align-items-center justify-content-center">
+                <span class="material-icons white f_24">
+                    mail_outline
+                </span>
+                <p class="f_16 ls_40 f_muk fw-bold white"></p>
+            </a>
+            <div class="menu-trigger" id="menu-trigger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="">
+                <div class="nav-inner">
+                    <div class="ham-patient-list d-flex flex-wrap justify-content-between align-items-center">
+                        <a href="./patient/" class="ham-big white f_28 ls_120"><span
+                                class="material-icons white f_26">chevron_right</span></a>
+                        <a href="" class="ham-small l_black f_16 ls_120 text-center"><span
+                                class="material-icons c-primary f_26">chevron_right</span></a>
+                        <a href="" class="ham-small l_black f_16 ls_120 text-center"><br>
+                            <span class="material-icons c-primary f_26">chevron_right</span></a>
+                        <a href="" class="ham-small l_black f_16 ls_120 text-center"><span
+                                class="material-icons c-primary f_26">chevron_right</span></a>
+                        <a href="" class="ham-small l_black f_16 ls_120 text-center"><span
+                                class="material-icons c-primary f_26">chevron_right</span></a>
+                    </div>
+                    <div class="ham-medical-list d-flex flex-wrap justify-content-between align-items-center">
+                        <a href="./medical/" class="ham-big white f_28 ls_120"><span
+                                class="material-icons white f_26">chevron_right</span></a>
+                        <a href="" class="ham-small l_black f_16 ls_120 text-center"><span
+                                class="material-icons c-second f_26">chevron_right</span></a>
+                        <a href="" class="ham-small l_black f_16 ls_120 text-center"><br>
+                            <span class="material-icons c-second f_26">chevron_right</span></a>
+                        <a href="" class="ham-small l_black f_16 ls_120 text-center"><span
+                                class="material-icons c-second f_26">chevron_right</span></a>
+                        <a href="" class="ham-small l_black f_16 ls_120 text-center"><span
+                                class="material-icons c-second f_26">chevron_right</span></a>
+                        <a href="" class="ham-small l_black f_16 ls_120 text-center"><span
+                                class="material-icons c-second f_26">chevron_right</span></a>
+                        <a href="" class="ham-small l_black f_16 ls_120 text-center"><span
+                                class="material-icons c-second f_26">chevron_right</span></a>
+                    </div>
+                    <div class="ham-company-list d-flex flex-wrap justify-content-between align-items-center">
+                        <a href="" class="ham-big c-primary f_28 ls_120"><span
+                                class="material-icons c-primary f_26">chevron_right</span></a>
+                        <a href="" class="ham-small l_black f_16 ls_120 text-center"><span
+                                class="material-icons c-primary f_26">chevron_right</span></a>
+                        <a href="" class="ham-small l_black f_16 ls_120 text-center"><span
+                                class="material-icons c-primary f_26">chevron_right</span></a>
+                        <a href="" class="ham-small l_black f_16 ls_120 text-center"><span
+                                class="material-icons c-primary f_26">chevron_right</span></a>
+                        <a href="" class="ham-small l_black f_16 ls_120 text-center"><span
+                                class="material-icons c-primary f_26">chevron_right</span></a>
+                    </div>
+
+                    <div class="ham-btn-list d-flex flex-wrap justify-content-between align-items-center">
+                        <a href="./faq/" class="ham-faq white f_22 ls_120 d-flex flex-column align-items-center"><img
+                                src="./img/common/question-w.png"></a>
+                        <a href="./link/" class="ham-link c-primary f_22 ls_120 text-center"></a>
+
+                    </div>
+
+                    <div class="ham-btn-list d-flex flex-wrap justify-content-between align-items-center">
+                        <a href="./contact/"
+                            class="ham-contact white f_22 ls_120 text-center d-flex flex-column align-items-center"><span
+                                class="material-icons white f_34">mail_outline</span></a>
+                        <p class="f_16 ls_200 text-center w-100"></p>
+                    </div>
+
+                    <div class="ham-tel-list">
+                        <a href="tel:"
+                            class="d-flex justify-content-center align-items-center f_50 ls_40 fw-bold f_muk c-second"><span
+                                class="material-icons c-second f_38 me-2">phonelink_ring</span></a>
+                        <p class="f_16 ls_200 text-center w-100"></p>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./js/sp_menu.js"></script>
+
+    <script type="text/javascript" src="./js/slick.min.js"></script>
+    <script>
+        $('.slider').slick({
+            arrows: true,
+            autoplay: true,
+            autoplaySpeed: 4000,
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            speed: 1000,
+            pauseOnFocus: false,
+            pauseOnHover: false,
+            swipe: false,
+            prevArrow: '<div class="slide-arrow prev-arrow"></div>',
+            nextArrow: '<div class="slide-arrow next-arrow"></div>',
+            responsive: [
+                {
+                    breakpoint: 1500, // 768~1500px以下のサイズに適用
+                    settings: {
+                        slidesToShow: 3
+                    }
+                }, {
+                    breakpoint: 1000, // 0〜767px以下のサイズに適用
+                    settings: {
+                        slidesToShow: 2
+                    }
+                }, {
+                    breakpoint: 768, // 0〜767px以下のサイズに適用
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    </script>
+
+<script src="//cdn.jsdelivr.net/npm/swiper@4.5.1/dist/js/swiper.min.js"></script>
+<script>
+    let mySwiper = new Swiper(".swiper-container", {
+        loop: true, //ループさせる
+        effect: "fade", //フェードのエフェクト
+        autoplay: {
+            delay: 8000, //5秒後に次の画像へ
+            disableOnInteraction: false //ユーザー操作後に自動再生を再開する
+        },
+        speed: 2000,//２秒かけながら次の画像へ移動
+        allowTouchMove: false,//マウスでのスワイプを禁止
+        pagination: { //円形のページネーションを有効にする
+            el: ".swiper-pagination",
+            clickable: true //クリックを有効にする
+        },
+        navigation: { //左右のページ送りを有効にする
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+        }
+    });
+</script>
+</body>
+
+</html>
